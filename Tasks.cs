@@ -311,9 +311,9 @@ namespace Tapshiriqlar_Task2
             {
                 long s =a + b + c + d + e + f;
                 long t = (a * 1000000) + c;
-                decimal u = ((s - t) * 10) / 100;
-                decimal v = (e + f) + u;
-                decimal z = (v * 11) / 100;
+                long u = ((s - t) * 10) / 100;
+                long v = (e + f) + u;
+                long z = (v * 11) / 100;
                 
 
                 Console.WriteLine(z);
